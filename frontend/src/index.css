@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(25, 25, 25);
+  
+}
+
+.app{
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.contact{
+  width: 280px;
+  height: 150px;
+  padding: 1rem;
+  /* padding-inline: 2rem; */
+  border: 1px solid wheat;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: .5rem;
+}
+
+
+h4{
+  font-weight: 500;
+  opacity: 0.5;
+}
+
+.a:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+.b:hover{
+  cursor: pointer;
+  opacity: 1;
+}
+
+hr{
+  width: 100%;
+  border: 1px solid wheat;
+}
